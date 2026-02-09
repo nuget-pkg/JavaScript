@@ -56,6 +56,6 @@
 		<PackageReference Include="System.Dynamic.Runtime" Version="4.3.0" />
 	</ItemGroup>
 	<ItemGroup>
-	  <ProjectReference Include="..\JavaScript.Internals\.build\JavaScriptInternals.dll\JavaScriptInternals.dll.csproj" />
+		<EmbeddedResource Include="..\JavaScript.Internals\JavaScriptInternals.dll" />
 	</ItemGroup>
 </Project>

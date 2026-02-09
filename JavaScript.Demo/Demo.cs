@@ -18,10 +18,7 @@ public class Program
                    console.log("Hello from TypeScript", a);
 
                    """);
-        var engine = new Global.EasyScript(transform: true, assemblies: [typeof(Program).Assembly])
-        {
-            Debug = true
-        };
+        var engine = new Global.JavaScript(assemblies: [typeof(Program).Assembly]);
         engine.SetValue("x", 222);
         var result = EasyObject.FromObject(engine.EvaluateFile(
             "my-file.js",
