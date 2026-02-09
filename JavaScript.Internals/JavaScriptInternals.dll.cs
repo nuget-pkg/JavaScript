@@ -20,7 +20,7 @@ namespace Global
 
         public dynamic? EvaluateFile(string fileName, string script, params object[] vars)
         {
-            throw new System.NotImplementedException();
+            return _engine.EvaluateFile(fileName, script, vars);
         }
 
         public void Execute(string script, params object[] vars)
@@ -30,7 +30,7 @@ namespace Global
 
         public void ExecuteFile(string fileName, string script, params object[] vars)
         {
-            throw new System.NotImplementedException();
+            _engine.ExecuteFile(fileName, script, vars);
         }
 
         public dynamic? GetValue(string name)

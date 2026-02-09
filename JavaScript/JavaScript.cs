@@ -14,7 +14,7 @@ using System.Xml.Linq;
 namespace Global;
 
 // ReSharper disable once InconsistentNaming
-public class JavaScript : Global.IEasyScript
+public class JavaScript //: Global.IEasyScript
 {
     private readonly JavaScriptInternals? _engine;
     public JavaScript(params Assembly[] assemblies)
