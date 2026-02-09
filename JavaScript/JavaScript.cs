@@ -10,11 +10,12 @@
         static JavaScript()
         {
             var thisAssembly = typeof(JavaScript).Assembly;
-            assembly = Sys.LoadFromResource(thisAssembly, "Javascript:JavaScriptInternals.dll");
+            assembly = Sys.LoadFromResource(thisAssembly, "JavaScript:JavaScriptInternals.dll");
             engineType = assembly!.GetType("Global.JavaScriptInternals")!;
         }
         public JavaScript(params Assembly[] assemblies)
         {
+            //assemblies ??= new Assembly[0];
             engine = Activator.CreateInstance(engineType!, [assemblies])!;
         }
         public dynamic? Call(string name, params object[] vars)
