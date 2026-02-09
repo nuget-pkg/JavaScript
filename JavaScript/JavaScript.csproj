@@ -5,20 +5,20 @@
 		<Version>2026.0210.0307.34</Version>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>disable</ImplicitUsings>
-		<RootNamespace>Javascript</RootNamespace>
+		<RootNamespace>JavaScript</RootNamespace>
 		<PlatformTarget>AnyCPU</PlatformTarget>
 		<WarningsAsErrors>nullable</WarningsAsErrors>
 		<NoWarn></NoWarn>
 		<Authors>JavaCommons</Authors>
 		<Company>JavaCommons Technologies</Company>
-		<Product>Javascript</Product>
-		<Description>Javascript Library</Description>
+		<Product>JavaScript</Product>
+		<Description>JavaScript Library</Description>
 		<Copyright>Copyright © JavaCommons Technologies 2026</Copyright>
 		<NeutralLanguage>en-US</NeutralLanguage>
-		<Title>Javascript Library</Title>
-		<PackageId>Javascript</PackageId>
+		<Title>JavaScript Library</Title>
+		<PackageId>JavaScript</PackageId>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<PackageProjectUrl>https://github.com/nuget-pkg/Javascript</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/nuget-pkg/JavaScript</PackageProjectUrl>
 		<!--
 		<PackageTags>json;parser</PackageTags>
 		-->
